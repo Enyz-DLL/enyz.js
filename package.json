@@ -1,0 +1,50 @@
+{
+  "name": "enyz.js",
+  "version": "1.0.0",
+  "description": "A powerful Discord bot framework supporting multiple Discord libraries",
+  "main": "src/index.js",
+  "types": "src/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node examples/basic-bot.js"
+  },
+  "files": [
+    "src",
+    "types",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "discord",
+    "bot",
+    "framework",
+    "discord.js",
+    "eris"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enyz-DLL/enyz.js.git"
+  },
+  "author": "Enyzelle",
+  "license": "MIT",
+  "homepage": "https://github.com/Enyz-DLL/enyz.js#readme",
+  "bugs": {
+    "url": "https://github.com/Enyz-DLL/enyz.js/issues"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "eris": "^0.17.2",
+    "mongoose": "^6.9.0",
+    "sqlite3": "^5.1.4",
+    "mysql2": "^2.3.3",
+    "@types/node": "^18.11.18"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.11.0",
+    "eris": "^0.17.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "ts-node": "^10.9.1"
+  }
+} 
